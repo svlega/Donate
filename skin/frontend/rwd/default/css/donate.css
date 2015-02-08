@@ -1,0 +1,35 @@
+/** Donate page Styles **/
+.other-text{
+display:none;
+}
+.donate-view .radio{
+display:none;
+}
+
+.donate-view .donate-option{
+color:#fff;
+background-color:#e8510a;
+border-radius:6px;
+width: 70px;
+height: 30px;
+padding: 5px;
+text-align: center;
+cursor:pointer;
+}
+
+.donate-view input[type=text].qty {
+width: 5em;
+}
+
+.donate-option-label{
+display:block;
+font-size:20px;
+}
+
+.other-text{
+margin-top:5px;
+}
+
+.donate-view .btn-cart{
+margin:10px 5px;
+}

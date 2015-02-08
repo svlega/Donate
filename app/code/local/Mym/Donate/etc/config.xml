@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mym_Donate>
+            <version>1.0.0</version>
+        </Mym_Donate>
+    </modules>   
+	<frontend>
+		 <routers>
+            <donate>
+                <use>standard</use>
+                <args>
+                    <module>Mym_Donate</module>
+                    <frontName>donate</frontName>
+                </args>
+            </donate>
+        </routers>
+    </frontend>
+	<global>		
+		<rewrite>
+            <mym_donate_cart>
+                <from><![CDATA[#^/checkout/cart/#]]></from>                
+                <to>/donate/cart/</to>
+            </mym_donate_cart>
+        </rewrite>		
+	</global>	
+</config>
